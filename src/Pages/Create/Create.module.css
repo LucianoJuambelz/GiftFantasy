@@ -1,0 +1,52 @@
+#Create{
+    min-height: 100vh;
+    background-color: var(--grey);
+    border-radius: 16px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    margin: 50px;
+    padding: 50px;
+    border-radius: 16px;
+    max-width: 900px;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.uploadContainer{
+    background-color: var(--grey);
+    height: 400px;
+    width: 400px;
+    border-radius: 16px;
+    outline: 2px dashed rgb(218,218,218);
+    outline-offset: -10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.uploadContainer input{
+    cursor: pointer;
+    height: 100%;
+    opacity: 0; 
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    font-size: 0px;
+}
+
+.uploadContainer h3{
+    font-size: 30px;
+}

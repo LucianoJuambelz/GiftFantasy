@@ -1,0 +1,77 @@
+#yellow a, #red a, #blue a, #lightBlue a{
+  color: black;
+}
+
+#yellow:hover ,#red:hover ,#blue:hover,#lightBlue:hover {
+  color: #fff;
+  transition: 0.3s;
+}
+
+#red:hover{
+  background-color: var(--red);
+}
+
+
+#yellow:hover{
+  background-color: var(--yellow);
+}
+
+
+#lightBlue:hover{
+  transition: 0.3s;
+  background-color: var(--light-blue)
+}
+
+#blue:hover{
+  background-color: var(--blue);
+}
+
+
+main{
+  display: flex;
+  justify-content: flex-start;
+  font-family: 'Roboto', sans-serif;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  max-width: 100vw;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.container{
+  min-height: 100vh;
+}
+
+button{
+  font-family: 'Roboto', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#mobileVisible {
+  display: flex;
+}
+
+#desktopVisible{
+  display: none
+}
+
+@media (min-width: 768px) {
+  #mobileVisible {
+    display: none;
+  }
+  
+  #desktopVisible{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: fit-content;
+  }
+}

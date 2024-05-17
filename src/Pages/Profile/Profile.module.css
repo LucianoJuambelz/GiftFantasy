@@ -1,0 +1,67 @@
+#Profile{
+    margin: 3em 0 0 0;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+}
+
+.container img{
+    height: auto;
+    width: auto;
+    transform: scale(1.5);
+    border-radius: 100%;
+}
+
+.profileH3{
+    font-size: 36px;
+    margin: 1em 0 0 0;
+}
+
+.bookmark{
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-right: 0.5em;
+    font-size: 30px;
+    margin: 1em 0;
+}
+
+.bookmark h3{
+    margin: 0;
+}
+
+.bookmark svg{
+    width: 20px;
+    margin-left: 10px;
+}
+
+.profileP{
+    margin: 1em 0;
+}
+
+.profileButton{
+    padding: 0.5em 2em;
+    border: none;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: var(--red)
+}
+
+bookmarkContainer{
+    width: 100%;
+    height: 100%;
+}

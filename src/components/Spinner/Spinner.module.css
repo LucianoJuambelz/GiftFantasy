@@ -1,0 +1,18 @@
+.spinnerContainer{
+    min-height: 100vh;
+}
+
+.spinner{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 768px) {
+    .spinner{
+        height: 80vh;
+    }
+    
+}
